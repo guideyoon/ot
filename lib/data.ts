@@ -10,11 +10,31 @@ export interface Product {
 }
 
 export const categories = [
-  { id: 'outer', name: '아우터' },
-  { id: 'top', name: '상의' },
-  { id: 'bottom', name: '하의' },
-  { id: 'dress', name: '원피스' },
-  { id: 'accessory', name: '액세서리' },
+  { 
+    id: 'outer', 
+    name: '아우터',
+    image: 'https://images.unsplash.com/photo-1551028719-00167b16eac5?w=600'
+  },
+  { 
+    id: 'top', 
+    name: '상의',
+    image: 'https://images.unsplash.com/photo-1521572163474-6864f9cf17ab?w=600'
+  },
+  { 
+    id: 'bottom', 
+    name: '하의',
+    image: 'https://images.unsplash.com/photo-1542272604-787c3835535d?w=600'
+  },
+  { 
+    id: 'dress', 
+    name: '원피스',
+    image: 'https://images.unsplash.com/photo-1595777457583-95e059d581b8?w=600'
+  },
+  { 
+    id: 'accessory', 
+    name: '액세서리',
+    image: 'https://images.unsplash.com/photo-1553062407-98eeb64c6a62?w=600'
+  },
 ]
 
 export const products: Product[] = [

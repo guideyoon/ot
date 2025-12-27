@@ -70,10 +70,14 @@ export default function Home() {
                 href={`/products?category=${category.id}`}
                 className="group"
               >
-                <div className="aspect-square bg-white overflow-hidden mb-4 shadow-sm hover:shadow-md transition-shadow">
-                  <div className="w-full h-full bg-gradient-to-br from-gray-100 to-gray-200 flex items-center justify-center">
-                    <span className="text-gray-400 text-sm">{category.name}</span>
-                  </div>
+                <div className="aspect-square bg-white overflow-hidden mb-4 shadow-sm hover:shadow-md transition-shadow relative">
+                  <Image
+                    src={category.image}
+                    alt={category.name}
+                    fill
+                    className="object-cover transition-transform duration-300 group-hover:scale-105"
+                    sizes="(max-width: 768px) 50vw, 20vw"
+                  />
                 </div>
                 <p className="text-center text-sm font-medium text-gray-900">
                   {category.name}
