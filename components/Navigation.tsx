@@ -7,6 +7,7 @@ const navItems = [
   { name: '홈', href: '/' },
   { name: '상품', href: '/products' },
   { name: '브랜드', href: '/about' },
+  { name: '매장안내', href: '/store' },
   { name: '문의', href: '/contact' },
 ]
 

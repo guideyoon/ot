@@ -25,6 +25,11 @@ export default function Footer() {
                 </Link>
               </li>
               <li>
+                <Link href="/store" className="hover:text-gray-900">
+                  매장 안내
+                </Link>
+              </li>
+              <li>
                 <Link href="/contact" className="hover:text-gray-900">
                   문의
                 </Link>
